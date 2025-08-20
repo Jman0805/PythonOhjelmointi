@@ -10,4 +10,4 @@ yhteisPaino = (leiviskat * leiviskaPaino) + (naulat * naulaPaino) + (luodit * lu
 kilot = int(yhteisPaino // 1000)
 grammat = yhteisPaino - (kilot * 1000)
 
-print("Massa nykymittojen mukaan: \n" + str(kilot) + " kilogrammaa ja " + str(grammat) + " grammaa.")
+print("Massa nykymittojen mukaan: \n" + str(kilot) + " kilogrammaa ja " + str(round(grammat,2)) + " grammaa.")
