@@ -36,7 +36,7 @@ try:
         port=3306,
         database="flight_game",
         user="root",
-        password="JmanRoot@1342", # Piilotettu githubia varten
+        password="salasana", # Piilotettu githubia varten
         autocommit=True
     )
 except mysql.connector.Error as err:
